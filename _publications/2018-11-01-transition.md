@@ -13,7 +13,6 @@ It is common that entity mentions can contain other mentions recursively. This p
 
 
 [Paper](https://www.aclweb.org/anthology/D18-1124.pdf)
-
 [Code](https://github.com/berlino/nest-trans-em18)
 
 BibTex:
