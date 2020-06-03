@@ -19,22 +19,22 @@ Education
 Work experience
 ======
 
-* Summer 2019: Research Intern
+* *Summer 2019: Research Intern*
   * Microsoft Research Redmond
   * Worked on text-to-SQL parsing
   * Supervisor: Matt Richardson 
 
-* Summer 2018: Research Intern
+* *Summer 2018: Research Intern*
   * Samsung Research America
   * Worked on semantic parsing
   * Supervisor: Hongxia Jin
 
-* Summer 2017: Research Intern
+* *Summer 2017: Research Intern*
   * [StatNLP](http://statnlp.org), Singapore
   * Worked on information extraction
   * Supervisor: Wei Lu
 
-* 2016: NLP Intern/Engineer
+* *2016: NLP Intern/Engineer*
   * Mobvoi, Beijing 
   * Worked on natural language understanding systems
   
