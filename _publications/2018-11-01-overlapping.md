@@ -8,6 +8,7 @@ venue: 'EMNLP'
 paperurl: 'https://www.aclweb.org/anthology/D18-1019/'
 # citation: ''
 ---
+
 In this work, we propose a novel segmental hypergraph representation to model overlapping entity mentions that are prevalent in many practical datasets. We show that our model built on top of such a new representation is able to capture features and interactions that cannot be captured by previous models while maintaining a low time complexity for inference. We also present a theoretical analysis to formally assess how our representation is better than alternative representations reported in the literature in terms of representational power. Coupled with neural networks for feature learning, our model achieves the state-of-the-art performance in three benchmark datasets annotated with overlapping mentions.
 
 [Paper](https://www.aclweb.org/anthology/D18-1019/)
