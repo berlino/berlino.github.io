@@ -5,7 +5,7 @@ permalink: /publication/2018-11-01-transition
 excerpt: ''
 date: 2018-11-01
 venue: 'EMNLP'
-paperulr: 'https://www.aclweb.org/anthology/D18-1124/'
+paperurl: 'https://www.aclweb.org/anthology/D18-1124/'
 # citation: ''
 ---
 
