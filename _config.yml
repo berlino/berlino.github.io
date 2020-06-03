@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Parsing Parsers >> Epoch 3"
+title                    : "Parsing Parsers --> Epoch 3"
 title_separator          : "-"
 name                     : &name "Bailin Wang"
 description              : &description "PhD Candiate in NLP"
