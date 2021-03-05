@@ -19,10 +19,15 @@ Education
 Work experience
 ======
 
+* *Summer 2020: Research Intern*
+  * Salesforce Research
+  * Worked on semantic parsing
+  * Supervisor: Wenpeng Yin, Xi Victoria Lin
+
 * *Summer 2019: Research Intern*
   * Microsoft Research Redmond
   * Worked on text-to-SQL parsing
-  * Supervisor: Matt Richardson 
+  * Supervisor: Matt Richardson, Alex Polozov
 
 * *Summer 2018: Research Intern*
   * Samsung Research America
@@ -35,9 +40,9 @@ Work experience
   * Supervisor: Wei Lu
 
 * *2016: NLP Intern/Engineer*
-  * Mobvoi, Beijing 
+  * Mobvoi, Beijing
   * Worked on natural language understanding systems
-  
+
 <!-- Skills
 ======
 * Skill 1
@@ -52,19 +57,19 @@ Publications
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 <!-- Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-  
+
 Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams -->
