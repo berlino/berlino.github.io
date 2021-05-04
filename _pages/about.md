@@ -16,7 +16,12 @@ I am a third-year PhD student at the University of Edinburgh, advised by [Ivan T
 
 You can also find them on <u><a href="https://scholar.google.com/citations?user=IlgMpNoAAAAJ&hl=en">my Google Scholar profile</a>.</u>
 
-* **Learning latent opinions for aspect-level sentiment classification**
+* [*Neural Segmental Hypergraphs for Overlapping Mention Recognition*](https://www.aclweb.org/anthology/D18-1019/)
+Bailin Wang and Wei Lu. In **EMNLP 2018**, [Video](https://vimeo.com/306356485) [Slides](https://berlino.github.io/files/emnlp2018_overlapping.pdf) [Code](https://github.com/berlino/overlapping-ner-em18)
+
+* [*Learning latent opinions for aspect-level sentiment classification*](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17327)
+Bailin Wang and Wei Lu. In **AAAI 2018**, [code](https://github.com/berlino/SA-Sent), [slides](https://berlino.github.io/files/aaai2018_absa.pdf)
+
 
 
 ## Education
