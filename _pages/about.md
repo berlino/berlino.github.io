@@ -40,7 +40,7 @@ In *ICLR 2021*,
 [video](https://iclr.cc/virtual/2021/poster/3307)
 
 * [RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers](https://arxiv.org/abs/1911.04942)  <br/>
-**Bailin Wang**<sup>\*</sup>, Richard Shin <sup>\*</sup>, Xiaodong Liu, Oleksandr Polozov and Matthew Richardson <br/>
+**Bailin Wang**<sup>\*</sup>, Richard Shin<sup>\*</sup>, Xiaodong Liu, Oleksandr Polozov and Matthew Richardson <br/>
 In *ACL 2020*,
 [slides](https://berlino.github.io/files/ratsql-acl2020.pdf)
 [code](https://github.com/Microsoft/rat-sql)
