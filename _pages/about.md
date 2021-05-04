@@ -16,6 +16,12 @@ I am a third-year PhD student at the University of Edinburgh, advised by [Ivan T
 
 You can also find them on <u><a href="https://scholar.google.com/citations?user=IlgMpNoAAAAJ&hl=en">my Google Scholar profile</a>.</u>
 
+* [RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers](https://arxiv.org/abs/1911.04942)
+**Bailin Wang**<sup>\*</sup>, Richard Shin <sup>\*</sup>, Xiaodong Liu, Oleksandr Polozov and Matthew Richardson. In *ACL 2020*
+[slides](https://berlino.github.io/files/ratsql-acl2020.pdf)
+[code](https://github.com/Microsoft/rat-sql)
+[video](https://virtual.acl2020.org/paper_main.677.html)
+
 * [Learning Semantic Parsers from Denotations with Latent Structured Alignments and Abstract Programs](https://www.aclweb.org/anthology/D19-1391/)
 **Bailin Wang**, Mirella Lapata and Ivan Titov. In *EMNLP 2019*
 [slides](https://berlino.github.io/files/emnlp2019_weaksp.pdf)
