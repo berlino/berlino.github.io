@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Parsing Parsers --> Epoch 3"
+title                    : "Parsing Papers --> Epoch 3"
 title_separator          : "-"
 name                     : &name "Bailin Wang"
-description              : &description "PhD Candiate in NLP"
+description              : &description "PhD Candidate in NLP"
 url                      : https://berlino.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "berlino/academicpages.github.io"
@@ -82,10 +82,10 @@ analytics:
 author:
   name             : "Bailin Wang"
   avatar           : "profile.png"
-  bio              : "PhD Candiate in NLP"
+  bio              : "PhD Candidate in NLP"
   location         : "Edinburgh, Scotland"
   employer         :
-  pubmed           : 
+  pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=IlgMpNoAAAAJ&hl=en"
   email            : "bailin.wang28@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
