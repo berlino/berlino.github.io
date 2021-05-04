@@ -16,6 +16,21 @@ I am a third-year PhD student at the University of Edinburgh, advised by [Ivan T
 
 You can also find them on <u><a href="https://scholar.google.com/citations?user=IlgMpNoAAAAJ&hl=en">my Google Scholar profile</a>.</u>
 
+* [Learning from Executions for Semantic Parsin](https://arxiv.org/abs/2104.05819) <br/>
+**Bailin Wang**, Mirella Lapata and Ivan Titov <br/>
+In *NAACL 2021*,
+[code](https://github.com/berlino/tensor2struct-public)
+
+* [Meta-Learning for Domain Generalization in Semantic Parsing](https://arxiv.org/pdf/2010.11988) <br/>
+**Bailin Wang**, Mirella Lapata and Ivan Titov <br/>
+In *NAACL 2021*,
+[code](https://github.com/berlino/tensor2struct-public)
+
+* [Learning to Synthesize Data for Semantic Parsing](https://arxiv.org/abs/2104.05827)<br/>
+**Bailin Wang**, Wenpeng Yin, Victoria Lin and Caiming Xiong <br/>
+In *NAACL 2021*,
+[code](https://github.com/berlino/tensor2struct-public)
+
 * [GraPPa: Grammar-Augmented Pre-Training for Table Semantic Parsing](https://arxiv.org/pdf/2009.13845) <br/>
 Tao Yu, Chien-Sheng Wu, Xi Victoria Lin, **Bailin Wang**, Yi Chern Tan, Xinyi Yang, Dragomir Radev, Richard Socher and Caiming Xiong <br/>
 In *ICLR 2021*,
@@ -35,22 +50,26 @@ In *ACL 2020*,
 [code](https://github.com/berlino/weaksp_em19)
 [video](https://crossminds.ai/video/learning-semantic-parsers-from-denotations-with-latent-structured-alignments-and-abstract-programs-601de6e3ecbeebc970a2f524/)
 
-* [Combining Spans into Entities: A Neural Two-Stage Approach for Recognizing Discontiguous Entities](https://www.aclweb.org/anthology/D19-1644/)
-**Bailin Wang** and Wei Lu. In *EMNLP 2019*
+* [Combining Spans into Entities: A Neural Two-Stage Approach for Recognizing Discontiguous Entities](https://www.aclweb.org/anthology/D19-1644/) <br/>
+**Bailin Wang** and Wei Lu <br/>
+In *EMNLP 2019*,
 [code](https://github.com/berlino/disco_em19)
 
-* [A Neural Transition-based Model for Nested Mention Recognition](https://www.aclweb.org/anthology/D18-1124.pdf)
-**Bailin Wang**, Wei Lu, Yu Wang and Hongxia Jin. In *EMNLP 2018*
+* [A Neural Transition-based Model for Nested Mention Recognition](https://www.aclweb.org/anthology/D18-1124.pdf) <br/>
+**Bailin Wang**, Wei Lu, Yu Wang and Hongxia Jin <br/>
+In *EMNLP 2018*,
 [code](https://github.com/berlino/nest-trans-em18)
 
-* [Neural Segmental Hypergraphs for Overlapping Mention Recognition](https://www.aclweb.org/anthology/D18-1019/)
-**Bailin Wang** and Wei Lu. In *EMNLP 2018*
+* [Neural Segmental Hypergraphs for Overlapping Mention Recognition](https://www.aclweb.org/anthology/D18-1019/) <br/>
+**Bailin Wang** and Wei Lu <br/>
+In *EMNLP 2018*,
 [slides](https://berlino.github.io/files/emnlp2018_overlapping.pdf)
 [code](https://github.com/berlino/overlapping-ner-em18)
 [video](https://vimeo.com/306356485)
 
-* [Learning latent opinions for aspect-level sentiment classification](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17327)
-**Bailin Wang** and Wei Lu. In *AAAI 2018*
+* [Learning latent opinions for aspect-level sentiment classification](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17327) <br/>
+**Bailin Wang** and Wei Lu.  <br/>
+In *AAAI 2018*,
 [code](https://github.com/berlino/SA-Sent)
 [slides](https://berlino.github.io/files/aaai2018_absa.pdf)
 
