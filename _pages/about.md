@@ -16,14 +16,21 @@ I am a third-year PhD student at the University of Edinburgh, advised by [Ivan T
 
 You can also find them on <u><a href="https://scholar.google.com/citations?user=IlgMpNoAAAAJ&hl=en">my Google Scholar profile</a>.</u>
 
-* [RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers](https://arxiv.org/abs/1911.04942) In *ACL 2020* <br/>
+* [GraPPa: Grammar-Augmented Pre-Training for Table Semantic Parsing](https://arxiv.org/pdf/2009.13845) <br/>
+Tao Yu, Chien-Sheng Wu, Xi Victoria Lin, **Bailin Wang**, Yi Chern Tan, Xinyi Yang, Dragomir Radev, Richard Socher and Caiming Xiong <br/>
+In *ICLR 2021*,
+[video](https://iclr.cc/virtual/2021/poster/3307)
+
+* [RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers](https://arxiv.org/abs/1911.04942)  <br/>
 **Bailin Wang**<sup>\*</sup>, Richard Shin <sup>\*</sup>, Xiaodong Liu, Oleksandr Polozov and Matthew Richardson <br/>
+In *ACL 2020*,
 [slides](https://berlino.github.io/files/ratsql-acl2020.pdf)
 [code](https://github.com/Microsoft/rat-sql)
 [video](https://virtual.acl2020.org/paper_main.677.html)
 
-* [Learning Semantic Parsers from Denotations with Latent Structured Alignments and Abstract Programs](https://www.aclweb.org/anthology/D19-1391/)
-**Bailin Wang**, Mirella Lapata and Ivan Titov. In *EMNLP 2019*
+* [Learning Semantic Parsers from Denotations with Latent Structured Alignments and Abstract Programs](https://www.aclweb.org/anthology/D19-1391/) <br/>
+**Bailin Wang**, Mirella Lapata and Ivan Titov <br/>
+ In *EMNLP 2019*,
 [slides](https://berlino.github.io/files/emnlp2019_weaksp.pdf)
 [code](https://github.com/berlino/weaksp_em19)
 [video](https://crossminds.ai/video/learning-semantic-parsers-from-denotations-with-latent-structured-alignments-and-abstract-programs-601de6e3ecbeebc970a2f524/)
