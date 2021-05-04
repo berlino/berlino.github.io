@@ -10,13 +10,16 @@ redirect_from:
 
 Hi, thanks for stopping by!
 
-I am a third-year PhD student at the University of Edinburgh, advised by [Ivan Titov](http://ivan-titov.org/) and [Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/index.php). I like latent structures in natural language, and enjoy working on them, e.g., [latent alignments](https://berlino.github.io/publication/2019-11-03-weaksp), [segmental hypergraph](https://berlino.github.io/publication/2018-11-01-overlapping), [relation-aware encoding](https://berlino.github.io/publication/2020-07-03-ratsql).
+I am a third-year PhD student at the University of Edinburgh, advised by [Ivan Titov](http://ivan-titov.org/) and [Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/index.php).
+I am generally interested in discrete structures, latent-variable models for natural langauge processing.
+Currently, I focus on the task of (executable) semantic parsing.
+
 
 ## Publications
 
-You can also find them on <u><a href="https://scholar.google.com/citations?user=IlgMpNoAAAAJ&hl=en">my Google Scholar profile</a>.</u>
+You can also find them on <a href="https://scholar.google.com/citations?user=IlgMpNoAAAAJ&hl=en">my Google Scholar profile</a>.
 
-* [Learning from Executions for Semantic Parsin](https://arxiv.org/abs/2104.05819) <br/>
+* [Learning from Executions for Semantic Parsing](https://arxiv.org/abs/2104.05819) <br/>
 **Bailin Wang**, Mirella Lapata and Ivan Titov <br/>
 In *NAACL 2021*,
 [code](https://github.com/berlino/tensor2struct-public)
