@@ -16,6 +16,7 @@ I am a third-year PhD student at the University of Edinburgh, advised by [Ivan T
 
 You can also find them on <u><a href="https://scholar.google.com/citations?user=IlgMpNoAAAAJ&hl=en">my Google Scholar profile</a>.</u>
 
+* **Learning latent opinions for aspect-level sentiment classification**
 
 
 ## Education
@@ -26,26 +27,16 @@ You can also find them on <u><a href="https://scholar.google.com/citations?user=
 
 ## Work Experience
 
-* *Summer 2020: Research Intern*
-  * Salesforce Research
-  * Worked on semantic parsing
+* Summer 2020: Research Intern at Salesforce Research
   * Supervisor: Wenpeng Yin, Xi Victoria Lin
 
-* *Summer 2019: Research Intern*
-  * Microsoft Research Redmond
-  * Worked on text-to-SQL parsing
+* Summer 2019: Research Intern at Microsoft Research Redmond
   * Supervisor: Matt Richardson, Alex Polozov
 
-* *Summer 2018: Research Intern*
-  * Samsung Research America
-  * Worked on semantic parsing
+* Summer 2018: Research Intern at Samsung Research America
   * Supervisor: Hongxia Jin
 
-* *Summer 2017: Research Intern*
-  * [StatNLP](http://statnlp.org), Singapore
-  * Worked on information extraction
+* Summer 2017: Research Intern at [StatNLP](http://statnlp.org), Singapore
   * Supervisor: Wei Lu
 
-* *2016: NLP Intern/Engineer*
-  * Mobvoi, Beijing
-  * Worked on natural language understanding systems
+* 2016: NLP Intern/Engineer at Mobvoi, Beijing
