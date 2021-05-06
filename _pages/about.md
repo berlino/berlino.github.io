@@ -20,6 +20,10 @@ Currently, I focus on the task of (executable) semantic parsing.
 
 You can also find them on <a href="https://scholar.google.com/citations?user=IlgMpNoAAAAJ&hl=en">my Google Scholar profile</a>.
 
+* Meta-Learning to Compositionally Generalize <br/>
+Henry Conklin<sup>\*</sup>, **Bailin Wang**<sup>\*</sup>, Kenny Smith and Ivan Titov <br/>
+To appear in *ACL 2021*
+
 * [Learning from Executions for Semantic Parsing](https://arxiv.org/abs/2104.05819) <br/>
 **Bailin Wang**, Mirella Lapata and Ivan Titov <br/>
 In *NAACL 2021*,
