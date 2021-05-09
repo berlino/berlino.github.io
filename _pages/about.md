@@ -11,7 +11,7 @@ redirect_from:
 Hi, thanks for stopping by!
 
 I am a third-year PhD student at the University of Edinburgh, advised by [Ivan Titov](http://ivan-titov.org/) and [Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/index.php).
-I am generally interested in discrete structures, latent-variable models for natural langauge processing.
+I am generally interested in discrete structures, latent-variable models, systematic generalization for natural langauge processing.
 Currently, I focus on the task of (executable) semantic parsing.
 
 **I'm looking for a postdoc position.**
