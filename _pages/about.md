@@ -14,7 +14,7 @@ I am a third-year PhD student at the University of Edinburgh, advised by [Ivan T
 I am generally interested in discrete structures, latent-variable models, systematic generalization for natural language processing.
 Currently, I focus on the task of (executable) semantic parsing.
 
-**I'm looking for a postdoc position.**
+**I'm looking for a job where I can still do interesting research.**
 
 ## Publications
 
