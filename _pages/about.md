@@ -22,7 +22,7 @@ You can also find them on <a href="https://scholar.google.com/citations?user=Ilg
 
 * [Structured Reordering for Modeling Latent Alignments in Sequence Transduction](https://arxiv.org/abs/2106.03257) <br/>
 **Bailin Wang**, Mirella Lapata and Ivan Titov <br/>
-Arxiv
+*Arxiv*
 
 * Meta-Learning to Compositionally Generalize <br/>
 Henry Conklin<sup>\*</sup>, **Bailin Wang**<sup>\*</sup>, Kenny Smith and Ivan Titov <br/>
