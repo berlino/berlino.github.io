@@ -24,7 +24,7 @@ You can also find them on <a href="https://scholar.google.com/citations?user=Ilg
 **Bailin Wang**, Mirella Lapata and Ivan Titov <br/>
 *Arxiv*
 
-* Meta-Learning to Compositionally Generalize <br/>
+* [Meta-Learning to Compositionally Generalize](https://arxiv.org/abs/2106.04252) <br/>
 Henry Conklin<sup>\*</sup>, **Bailin Wang**<sup>\*</sup>, Kenny Smith and Ivan Titov <br/>
 To appear in *ACL 2021*
 
