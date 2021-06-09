@@ -89,7 +89,7 @@ In *AAAI 2018*,
 ## Personal Milestones:
 
 * **Epoch 4**: Transformers are everywhere, wondering how latent structures can still be useful somehow...
-* **Epoch 3**: maybe structured prediction is not required as we already have good end-to-end systems? Maybe latent structures can help!
+* **Epoch 3**: maybe structured prediction is not required as we already have good end-to-end systems? But latent structures can help!
 * **Epoch 2**: structured prediction is interesting, I can play with DL and fancy structures!
 * **Epoch 1**: everyone is doing DL for NLP, so I should follow (though I do not understand why they work so well)
 * **Epoch 0**: intrigued by rule/grammar-based parsing systems (and also SMT), wish I could do something related
@@ -103,16 +103,16 @@ In *AAAI 2018*,
 
 ## Work Experience
 
-* Summer 2020: Research Intern at Salesforce Research
+* *Summer 2020*: Research Intern at Salesforce Research
   * Supervisor: Wenpeng Yin, Xi Victoria Lin
 
-* Summer 2019: Research Intern at Microsoft Research Redmond
+* *Summer 2019*: Research Intern at Microsoft Research Redmond
   * Supervisor: Matt Richardson, Alex Polozov
 
-* Summer 2018: Research Intern at Samsung Research America
+* *Summer 2018*: Research Intern at Samsung Research America
   * Supervisor: Hongxia Jin
 
-* Summer 2017: Research Intern at [StatNLP](http://statnlp.org), Singapore
+* *Summer 2017*: Research Intern at [StatNLP](http://statnlp.org), Singapore
   * Supervisor: Wei Lu
 
-* 2016: NLP Intern/Engineer at Mobvoi, Beijing
+* *2016*: NLP Intern/Engineer at Mobvoi, Beijing
