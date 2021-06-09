@@ -86,6 +86,14 @@ In *AAAI 2018*,
 [slides](https://berlino.github.io/files/aaai2018_absa.pdf)
 
 
+## Personal Milestones:
+
+* Epoch 4: wondering how latent structures can be *really* useful somehow...
+* Epoch 3: maybe structured prediction is not required as we have end-to-end system? Latent structures might help!
+* Epoch 2: structured prediction is interesting, I can play with DL and fancy structures 
+* Epoch 1: everyone is doing DL for NLP, so I should follow (though I do not understand why)
+* Epoch 0: intrigued by rule/grammar-based parsing systems (and also SMT), wish I could do something related
+
 
 ## Education
 
