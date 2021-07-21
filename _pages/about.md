@@ -33,7 +33,7 @@ To appear in *ACL 2021*
 In *NAACL 2021*,
 [code](https://github.com/berlino/tensor2struct-public)
 
-* [Meta-Learning for Domain Generalization in Semantic Parsing](https://arxiv.org/pdf/2010.11988) <br/>
+* [Meta-Learning for Domain Generalization in Semantic Parsing](https://arxiv.org/abs/2010.11988) <br/>
 **Bailin Wang**, Mirella Lapata and Ivan Titov <br/>
 In *NAACL 2021*,
 [code](https://github.com/berlino/tensor2struct-public)
@@ -43,7 +43,7 @@ In *NAACL 2021*,
 In *NAACL 2021*,
 [code](https://github.com/berlino/tensor2struct-public)
 
-* [GraPPa: Grammar-Augmented Pre-Training for Table Semantic Parsing](https://arxiv.org/pdf/2009.13845) <br/>
+* [GraPPa: Grammar-Augmented Pre-Training for Table Semantic Parsing](https://arxiv.org/abs/2009.13845) <br/>
 Tao Yu, Chien-Sheng Wu, Xi Victoria Lin, **Bailin Wang**, Yi Chern Tan, Xinyi Yang, Dragomir Radev, Richard Socher and Caiming Xiong <br/>
 In *ICLR 2021*,
 [video](https://iclr.cc/virtual/2021/poster/3307)
@@ -67,7 +67,7 @@ In *ACL 2020*,
 In *EMNLP 2019*,
 [code](https://github.com/berlino/disco_em19)
 
-* [A Neural Transition-based Model for Nested Mention Recognition](https://www.aclweb.org/anthology/D18-1124.pdf) <br/>
+* [A Neural Transition-based Model for Nested Mention Recognition](https://www.aclweb.org/anthology/D18-1124) <br/>
 **Bailin Wang**, Wei Lu, Yu Wang and Hongxia Jin <br/>
 In *EMNLP 2018*,
 [code](https://github.com/berlino/nest-trans-em18)
