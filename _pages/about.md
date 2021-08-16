@@ -10,13 +10,13 @@ redirect_from:
 
 Hi, thanks for stopping by!
 
-I am a third-year PhD student at the University of Edinburgh, advised by [Ivan Titov](http://ivan-titov.org/) and [Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/index.php).
+:information_desk_person:  I am a third-year PhD student at the University of Edinburgh, advised by [Ivan Titov](http://ivan-titov.org/) and [Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/index.php).
 I am interested in **(latent) discrete structures** that arise in problems such as structured prediction, semantic parsing and program synthesis,
 and combining machine learning with ideas from *combinatorial optimization* to handle such structures in developing methods to improve *(systematic) generalization*.
 
-Free feel to reach out if you'd like to talk about *structures* in languages!
+:wave: Free feel to reach out if you'd like to talk about *structures* in languages!
 
-**I'm looking for a job where I can still do interesting research.**
+:speech_balloon: **I'm looking for a job where I can still do interesting research.**
 
 ## Publications
 
