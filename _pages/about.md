@@ -91,10 +91,10 @@ In *AAAI 2018*,
 ## Personal Milestones:
 
 * **Epoch 4**: :confused:  Transformers are everywhere, wondering how latent structures can still be useful somehow...
-* **Epoch 3**: :partying_face:  maybe structured prediction is not required as we already have good end-to-end systems? But latent structures can help!
+* **Epoch 3**: :thinking:   maybe structured prediction is not required as we already have good end-to-end systems? But latent structures can help!
 * **Epoch 2**: :smile_cat:   structured prediction is interesting, I can play with DL and fancy structures!
 * **Epoch 1**: :expressionless:	 everyone is doing DL for NLP, so I should follow (though I do not understand why they work so well)
-* **Epoch 0**: :monocle_face:  intrigued by rule/grammar-based parsing systems (and also SMT), wish I could do something related
+* **Epoch 0**: :grimacing:   intrigued by rule/grammar-based parsing systems (and also SMT), wish I could do something related
 
 
 ## Education
