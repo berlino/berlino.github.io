@@ -10,13 +10,13 @@ redirect_from:
 
 Hi, thanks for stopping by!
 
-:information_desk_person:  I am a third-year PhD student at the University of Edinburgh, advised by [Ivan Titov](http://ivan-titov.org/) and [Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/index.php).
+:man_technologist:  I am a third-year PhD student at the University of Edinburgh, advised by [Ivan Titov](http://ivan-titov.org/) and [Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/index.php).
 I am interested in **(latent) discrete structures** that arise in problems such as structured prediction, semantic parsing and program synthesis,
 and combining machine learning with ideas from *combinatorial optimization* to handle such structures in developing methods to improve *(systematic) generalization*.
 
 :wave: Free feel to reach out if you'd like to talk about *structures* in languages!
 
-:speech_balloon: **I'm looking for a job where I can still do interesting research.**
+:clipboard: **I'm looking for a job where I can still do interesting research.**
 
 ## Publications
 
@@ -90,11 +90,11 @@ In *AAAI 2018*,
 
 ## Personal Milestones:
 
-* **Epoch 4**: Transformers are everywhere, wondering how latent structures can still be useful somehow...
-* **Epoch 3**: maybe structured prediction is not required as we already have good end-to-end systems? But latent structures can help!
-* **Epoch 2**: structured prediction is interesting, I can play with DL and fancy structures!
-* **Epoch 1**: everyone is doing DL for NLP, so I should follow (though I do not understand why they work so well)
-* **Epoch 0**: intrigued by rule/grammar-based parsing systems (and also SMT), wish I could do something related
+* **Epoch 4**: :confused:  Transformers are everywhere, wondering how latent structures can still be useful somehow...
+* **Epoch 3**: :star_struck:  maybe structured prediction is not required as we already have good end-to-end systems? But latent structures can help!
+* **Epoch 2**: :smile_cat:   structured prediction is interesting, I can play with DL and fancy structures!
+* **Epoch 1**: :expressionless:	 everyone is doing DL for NLP, so I should follow (though I do not understand why they work so well)
+* **Epoch 0**: :star_struck:   intrigued by rule/grammar-based parsing systems (and also SMT), wish I could do something related
 
 
 ## Education
