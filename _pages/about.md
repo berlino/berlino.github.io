@@ -28,22 +28,28 @@ You can also find them on <a href="https://scholar.google.com/citations?user=Ilg
 
 * [Meta-Learning to Compositionally Generalize](https://arxiv.org/abs/2106.04252) <br/>
 Henry Conklin<sup>\*</sup>, **Bailin Wang**<sup>\*</sup>, Kenny Smith and Ivan Titov <br/>
-To appear in *ACL 2021*
+In *ACL 2021*,
+[code](https://github.com/berlino/tensor2struct-public)
+[video (via Underline)](https://underline.io/events/167/sessions/5543/lecture/25594-meta-learning-to-compositionally-generalize)
+[slides](https://berlino.github.io/files/acl2021-comp-maml.pdf)
 
 * [Learning from Executions for Semantic Parsing](https://arxiv.org/abs/2104.05819) <br/>
 **Bailin Wang**, Mirella Lapata and Ivan Titov <br/>
 In *NAACL 2021*,
 [code](https://github.com/berlino/tensor2struct-public)
+[video (via Underline)](https://underline.io/lecture/20036-learning-from-executions-for-semantic-parsing)
 
 * [Meta-Learning for Domain Generalization in Semantic Parsing](https://arxiv.org/abs/2010.11988) <br/>
 **Bailin Wang**, Mirella Lapata and Ivan Titov <br/>
 In *NAACL 2021*,
 [code](https://github.com/berlino/tensor2struct-public)
+[video](https://underline.io/lecture/19816-meta-learning-for-domain-generalization-in-semantic-parsing)
 
 * [Learning to Synthesize Data for Semantic Parsing](https://arxiv.org/abs/2104.05827)<br/>
 **Bailin Wang**, Wenpeng Yin, Victoria Lin and Caiming Xiong <br/>
 In *NAACL 2021*,
 [code](https://github.com/berlino/tensor2struct-public)
+[video (via Underline)](https://underline.io/lecture/20041-learning-to-synthesize-data-for-semantic-parsing)
 
 * [GraPPa: Grammar-Augmented Pre-Training for Table Semantic Parsing](https://arxiv.org/abs/2009.13845) <br/>
 Tao Yu, Chien-Sheng Wu, Xi Victoria Lin, **Bailin Wang**, Yi Chern Tan, Xinyi Yang, Dragomir Radev, Richard Socher and Caiming Xiong <br/>
