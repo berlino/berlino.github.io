@@ -14,7 +14,7 @@ Hi, thanks for stopping by!
 I am interested in **(latent) discrete structures** that arise in problems such as structured prediction, semantic parsing and program synthesis,
 and combining machine learning with ideas from *combinatorial optimization* to handle such structures in developing methods to improve *(systematic) generalization*.
 
-:wave: Free feel to reach out if you'd like to talk about *structures* in languages!
+:wave: Free feel to reach out if you'd like to chat about *grammars/structures* in languages!
 
 :clipboard: **I'm looking for a job where I can still do interesting research.**
 
@@ -43,7 +43,7 @@ In *NAACL 2021*,
 **Bailin Wang**, Mirella Lapata and Ivan Titov <br/>
 In *NAACL 2021*,
 [code](https://github.com/berlino/tensor2struct-public)
-[video](https://underline.io/lecture/19816-meta-learning-for-domain-generalization-in-semantic-parsing)
+[video (via Underline)](https://underline.io/lecture/19816-meta-learning-for-domain-generalization-in-semantic-parsing)
 
 * [Learning to Synthesize Data for Semantic Parsing](https://arxiv.org/abs/2104.05827)<br/>
 **Bailin Wang**, Wenpeng Yin, Victoria Lin and Caiming Xiong <br/>
