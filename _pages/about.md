@@ -38,12 +38,14 @@ In *ACL 2021*,
 In *NAACL 2021*,
 [code](https://github.com/berlino/tensor2struct-public)
 [video (via Underline)](https://underline.io/lecture/20036-learning-from-executions-for-semantic-parsing)
+[slides](https://berlino.github.io/files/naacl2021-semisup.pdf)
 
 * [Meta-Learning for Domain Generalization in Semantic Parsing](https://arxiv.org/abs/2010.11988) <br/>
 **Bailin Wang**, Mirella Lapata and Ivan Titov <br/>
 In *NAACL 2021*,
 [code](https://github.com/berlino/tensor2struct-public)
 [video (via Underline)](https://underline.io/lecture/19816-meta-learning-for-domain-generalization-in-semantic-parsing)
+[slides](https://berlino.github.io/files/naacl2021-dg-maml.pdf)
 
 * [Learning to Synthesize Data for Semantic Parsing](https://arxiv.org/abs/2104.05827)<br/>
 **Bailin Wang**, Wenpeng Yin, Victoria Lin and Caiming Xiong <br/>
