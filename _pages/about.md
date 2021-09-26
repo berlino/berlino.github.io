@@ -27,7 +27,7 @@ You can also find them on <a href="https://scholar.google.com/citations?user=Ilg
 *Arxiv*
 
 * [Meta-Learning to Compositionally Generalize](https://arxiv.org/abs/2106.04252) <br/>
-Henry Conklin<sup>\*</sup>, **Bailin Wang**<sup>\*</sup>, Kenny Smith and Ivan Titov <br/>
+Henry Conklin<sup>\*</sup>, **Bailin Wang**<sup>\*</sup>, Kenny Smith and Ivan Titov (<sup>\*</sup> equal contribution) <br/>
 In *ACL 2021*,
 [code](https://github.com/berlino/tensor2struct-public)
 [slides](https://berlino.github.io/files/acl2021-comp-maml.pdf)
