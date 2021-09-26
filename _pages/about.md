@@ -96,7 +96,7 @@ In *AAAI 2018*,
 [slides](https://berlino.github.io/files/aaai2018_absa.pdf)
 
 
-## Research Trajectory:
+## Training Log of Parsing Papers:
 
 * **Epoch 5**: :thinking:  Transformers are indeed powerful, but we also need specialized objectives to regularize the training of them
 * **Epoch 4**: :confused:  Transformers are everywhere, wondering how latent structures can still be useful somehow...
