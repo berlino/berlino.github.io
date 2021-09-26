@@ -98,12 +98,12 @@ In *AAAI 2018*,
 
 ## Log of Parsing Papers
 
-:thinking: **Epoch 5**:  At 2021, I'm convinced that Transformers are indeed powerful, but we also need specialized objectives to regularize the training of them. <br/>
-:confused: **Epoch 4**: At 2020, Transformers are everywhere, wondering how latent structures can still be useful somehow. <br/>
-:thinking: **Epoch 3**: During 2018-2019,  maybe structured prediction is not required as we already have good end-to-end systems? But latent structures can help! <br/>
-:smile_cat: **Epoch 2**:  During 2017-2018, structured prediction is interesting, I can play with DL and fancy structures! <br/>
-:expressionless: **Epoch 1**: 	At 2017, it seems that everyone is doing DL for NLP, so I should follow though I do not understand why they work so well. <br/>
-:grimacing: **Epoch 0**: During 2016-2017, I was intrigued by rule/grammar-based parsing systems (and their usage in SMT), and I wish I could do something related. <br/>
+**Epoch 5**: :thinking: At 2021, I'm convinced that Transformers are indeed powerful, but we also need specialized objectives to regularize the training of them. <br/>
+**Epoch 4**: :confused: At 2020, Transformers are everywhere, wondering how latent structures can still be useful somehow. <br/>
+**Epoch 3**: :thinking: During 2018-2019,  maybe structured prediction is not required as we already have good end-to-end systems? But latent structures can help! <br/>
+**Epoch 2**: :smile_cat:  During 2017-2018, structured prediction is interesting, I can play with DL and fancy structures! <br/>
+**Epoch 1**: :expressionless: 	At 2017, it seems that everyone is doing DL for NLP, so I should follow though I do not understand why they work so well. <br/>
+**Epoch 0**: :grimacing: During 2016-2017, I was intrigued by rule/grammar-based parsing systems (and their usage in SMT), and I wish I could do something related. <br/>
 
 
 ## Education
@@ -114,16 +114,8 @@ B.S. in Xidian University, 2015
 
 ## Work Experience
 
-* *Summer 2020*: Research Intern at Salesforce Research
-  * Supervisor: Wenpeng Yin, Xi Victoria Lin
-
-* *Summer 2019*: Research Intern at Microsoft Research Redmond
-  * Supervisor: Matt Richardson, Alex Polozov
-
-* *Summer 2018*: Research Intern at Samsung Research America
-  * Supervisor: Hongxia Jin
-
-* *Summer 2017*: Research Intern at [StatNLP](http://statnlp.org), Singapore
-  * Supervisor: Wei Lu
-
-* *2016*: NLP Intern/Engineer at Mobvoi, Beijing
+Research Intern at Salesforce Research, Summer 2020 <br/>
+Research Intern at Microsoft Research Redmond, Summer 2019 <br/>
+Research Intern at Samsung Research America, Summer 2018 <br/>
+Research Intern at [StatNLP](http://statnlp.org) Singapore, Summer 2017 <br/>
+NLP Intern/Engineer at Mobvoi. Beijing, 2016 <br/>
