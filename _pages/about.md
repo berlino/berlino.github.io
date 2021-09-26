@@ -8,13 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-Hi, thanks for stopping by!
+:man_technologist:  I am a final-year PhD student at the University of Edinburgh, advised by [Ivan Titov](http://ivan-titov.org/) and [Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/index.php).
 
-:man_technologist:  I am a third-year PhD student at the University of Edinburgh, advised by [Ivan Titov](http://ivan-titov.org/) and [Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/index.php).
-I am interested in **(latent) discrete structures** that arise in problems such as structured prediction, semantic parsing and program synthesis,
-and combining machine learning with ideas from *combinatorial optimization* to handle such structures in developing methods to improve *(systematic) generalization*.
+During my PhD, I primarily focus on addressing several generalization challenges that arise in executable semantic parsing (e.g., text-to-SQL parsing), namely *domain generalization, learning from weak supervision and systematic generalization*, with methodologies of **latent discrete structure learning** and **specialized learning objectives** (e.g., meta-learning). Currently, I am interested in exploring similar challenges in related tasks such as machine translation, and extending the methodologies to them. Prior to my PhD, I worked on structured prediction such as nested entity recognition.
 
-:wave: Free feel to reach out if you'd like to chat about *grammars/structures* in languages!
+:wave: Free feel to reach out if you'd like to chat!
 
 :clipboard: **I'm looking for a job where I can still do interesting research.**
 
@@ -30,22 +28,22 @@ You can also find them on <a href="https://scholar.google.com/citations?user=Ilg
 Henry Conklin<sup>\*</sup>, **Bailin Wang**<sup>\*</sup>, Kenny Smith and Ivan Titov <br/>
 In *ACL 2021*,
 [code](https://github.com/berlino/tensor2struct-public)
-[video (via Underline)](https://underline.io/events/167/sessions/5543/lecture/25594-meta-learning-to-compositionally-generalize)
 [slides](https://berlino.github.io/files/acl2021-comp-maml.pdf)
+[video (via Underline)](https://underline.io/events/167/sessions/5543/lecture/25594-meta-learning-to-compositionally-generalize)
 
 * [Learning from Executions for Semantic Parsing](https://arxiv.org/abs/2104.05819) <br/>
 **Bailin Wang**, Mirella Lapata and Ivan Titov <br/>
 In *NAACL 2021*,
 [code](https://github.com/berlino/tensor2struct-public)
-[video (via Underline)](https://underline.io/lecture/20036-learning-from-executions-for-semantic-parsing)
 [slides](https://berlino.github.io/files/naacl2021-semisup.pdf)
+[video (via Underline)](https://underline.io/lecture/20036-learning-from-executions-for-semantic-parsing)
 
 * [Meta-Learning for Domain Generalization in Semantic Parsing](https://arxiv.org/abs/2010.11988) <br/>
 **Bailin Wang**, Mirella Lapata and Ivan Titov <br/>
 In *NAACL 2021*,
 [code](https://github.com/berlino/tensor2struct-public)
-[video (via Underline)](https://underline.io/lecture/19816-meta-learning-for-domain-generalization-in-semantic-parsing)
 [slides](https://berlino.github.io/files/naacl2021-dg-maml.pdf)
+[video (via Underline)](https://underline.io/lecture/19816-meta-learning-for-domain-generalization-in-semantic-parsing)
 
 * [Learning to Synthesize Data for Semantic Parsing](https://arxiv.org/abs/2104.05827)<br/>
 **Bailin Wang**, Wenpeng Yin, Victoria Lin and Caiming Xiong <br/>
@@ -61,15 +59,15 @@ In *ICLR 2021*,
 * [RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers](https://arxiv.org/abs/1911.04942)  <br/>
 **Bailin Wang**<sup>\*</sup>, Richard Shin<sup>\*</sup>, Xiaodong Liu, Oleksandr Polozov and Matthew Richardson <br/>
 In *ACL 2020*,
-[slides](https://berlino.github.io/files/ratsql-acl2020.pdf)
 [code](https://github.com/Microsoft/rat-sql)
+[slides](https://berlino.github.io/files/ratsql-acl2020.pdf)
 [video](https://virtual.acl2020.org/paper_main.677.html)
 
 * [Learning Semantic Parsers from Denotations with Latent Structured Alignments and Abstract Programs](https://www.aclweb.org/anthology/D19-1391/) <br/>
 **Bailin Wang**, Mirella Lapata and Ivan Titov <br/>
  In *EMNLP 2019*,
-[slides](https://berlino.github.io/files/emnlp2019_weaksp.pdf)
 [code](https://github.com/berlino/weaksp_em19)
+[slides](https://berlino.github.io/files/emnlp2019_weaksp.pdf)
 [video](https://crossminds.ai/video/learning-semantic-parsers-from-denotations-with-latent-structured-alignments-and-abstract-programs-601de6e3ecbeebc970a2f524/)
 
 * [Combining Spans into Entities: A Neural Two-Stage Approach for Recognizing Discontiguous Entities](https://www.aclweb.org/anthology/D19-1644/) <br/>
@@ -85,8 +83,8 @@ In *EMNLP 2018*,
 * [Neural Segmental Hypergraphs for Overlapping Mention Recognition](https://www.aclweb.org/anthology/D18-1019/) <br/>
 **Bailin Wang** and Wei Lu <br/>
 In *EMNLP 2018*,
-[slides](https://berlino.github.io/files/emnlp2018_overlapping.pdf)
 [code](https://github.com/berlino/overlapping-ner-em18)
+[slides](https://berlino.github.io/files/emnlp2018_overlapping.pdf)
 [video](https://vimeo.com/306356485)
 
 * [Learning latent opinions for aspect-level sentiment classification](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17327) <br/>
