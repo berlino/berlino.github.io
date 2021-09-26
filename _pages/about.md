@@ -96,9 +96,9 @@ In *AAAI 2018*,
 [slides](https://berlino.github.io/files/aaai2018_absa.pdf)
 
 
-## Personal Milestones:
+## Research Trajectory:
 
-* **Epoch 5**: :thinking:  Transformers are indeed powerful, but we also need specialized objectives to regularize the training of them.
+* **Epoch 5**: :thinking:  Transformers are indeed powerful, but we also need specialized objectives to regularize the training of them
 * **Epoch 4**: :confused:  Transformers are everywhere, wondering how latent structures can still be useful somehow...
 * **Epoch 3**: :thinking:   maybe structured prediction is not required as we already have good end-to-end systems? But latent structures can help!
 * **Epoch 2**: :smile_cat:   structured prediction is interesting, I can play with DL and fancy structures!
