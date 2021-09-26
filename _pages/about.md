@@ -106,16 +106,18 @@ In *AAAI 2018*,
 **Epoch 0**: :grimacing: During 2016-2017, I was intrigued by rule/grammar-based parsing systems (and their usage in SMT), and I wish I could do something related. <br/>
 
 
-## Education
-
-Ph.D in ILCC, University of Edinburgh, 2021 (expected) <br/>
-M.S. in CICS, University of Massachusetts Amherst, 2018 <br/>
-B.S. in Xidian University, 2015
-
 ## Work Experience
 
-Research Intern at Salesforce Research, Summer 2020 <br/>
-Research Intern at Microsoft Research Redmond, Summer 2019 <br/>
-Research Intern at Samsung Research America, Summer 2018 <br/>
-Research Intern at [StatNLP](http://statnlp.org) Singapore, Summer 2017 <br/>
-NLP Intern/Engineer at Mobvoi. Beijing, 2016 <br/>
+* Research Intern at Salesforce Research, Summer 2020 
+* Research Intern at Microsoft Research Redmond, Summer 2019
+* Research Intern at Samsung Research America, Summer 2018
+* Research Intern at [StatNLP](http://statnlp.org) Singapore, Summer 2017
+* NLP Intern/Engineer at Mobvoi. Beijing, 2016
+
+## Education
+
+* Ph.D in ILCC, University of Edinburgh, 2021 (expected) 
+* M.S. in CICS, University of Massachusetts Amherst, 2018
+* B.S. in Xidian University, 2015
+
+
