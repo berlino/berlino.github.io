@@ -96,14 +96,14 @@ In *AAAI 2018*,
 [slides](https://berlino.github.io/files/aaai2018_absa.pdf)
 
 
-## Training Log of Parsing Papers:
+## Log of Parsing Papers
 
-* **Epoch 5**: :thinking:  Transformers are indeed powerful, but we also need specialized objectives to regularize the training of them
-* **Epoch 4**: :confused:  Transformers are everywhere, wondering how latent structures can still be useful somehow...
-* **Epoch 3**: :thinking:   maybe structured prediction is not required as we already have good end-to-end systems? But latent structures can help!
-* **Epoch 2**: :smile_cat:   structured prediction is interesting, I can play with DL and fancy structures!
-* **Epoch 1**: :expressionless:	 everyone is doing DL for NLP, so I should follow (though I do not understand why they work so well)
-* **Epoch 0**: :grimacing:   intrigued by rule/grammar-based parsing systems (and also SMT), wish I could do something related
+* **Epoch 5**: :thinking: At 2021, I'm convinced that Transformers are indeed powerful, but we also need specialized objectives to regularize the training of them.
+* **Epoch 4**: :confused: At 2020, Transformers are everywhere, wondering how latent structures can still be useful somehow.
+* **Epoch 3**: :thinking: During 2018-2019,  maybe structured prediction is not required as we already have good end-to-end systems? But latent structures can help!
+* **Epoch 2**: :smile_cat:  During 2017-2018, structured prediction is interesting, I can play with DL and fancy structures!
+* **Epoch 1**: :expressionless:	At 2017, it seems that everyone is doing DL for NLP, so I should follow though I do not understand why they work so well.
+* **Epoch 0**: :grimacing: During 2016-2017, I was intrigued by rule/grammar-based parsing systems (and their usage in SMT), and I wish I could do something related.
 
 
 ## Education
