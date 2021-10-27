@@ -10,9 +10,9 @@ redirect_from:
 
 :man_technologist:  I am a final-year PhD student at the University of Edinburgh, advised by [Ivan Titov](http://ivan-titov.org/) and [Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/index.php).
 
-During my PhD, I primarily focus on addressing several generalization challenges that arise in executable semantic parsing (e.g., text-to-SQL parsing), namely *domain generalization*, *learning from weak supervision* and *systematic generalization*, based on methodologies of **latent discrete structure learning** and **specialized learning objectives** (e.g., meta-learning). 
+During my PhD, I primarily focus on addressing several generalization challenges that arise in executable semantic parsing (e.g., text-to-SQL parsing), namely *domain generalization*, *learning from weak supervision* and *systematic generalization*, based on methodologies of **latent discrete structure learning** (e.g., separable permutation)  and **specialized learning objectives** (e.g., meta-learning). 
 
-Currently, I am interested in exploring similar challenges in related tasks such as machine translation, and extending the methodologies to them. Prior to my PhD, I worked on structured prediction such as nested entity recognition.
+Currently, I am interested in exploring how these methodologies can be extended to address similar challenges in related tasks such as machine translation and program synthesis. Prior to my PhD, I worked on structured prediction such as nested entity recognition.
 
 :wave: Free feel to reach out if you'd like to chat!
 
