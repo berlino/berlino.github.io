@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-:man_technologist:  I am a final-year PhD student at the University of Edinburgh, advised by [Ivan Titov](http://ivan-titov.org/) and [Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/index.php).
+:man_technologist:  I am now a postdoc at MIT, working with [Yoon Kim](https://people.csail.mit.edu/yoonkim/). I finished my PhD at the University of Edinburgh, advised by [Ivan Titov](http://ivan-titov.org/) and [Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/index.php).
 
 During my PhD, I primarily focus on addressing several generalization challenges that arise in executable semantic parsing (e.g., text-to-SQL parsing), namely *domain generalization*, *learning from weak supervision* and *systematic generalization*, based on methodologies of **latent discrete structure learning** (e.g., separable permutation)  and **specialized learning objectives** (e.g., meta-learning). 
 
@@ -16,7 +16,9 @@ Currently, I am interested in exploring how these methodologies can be extended 
 
 :wave: Free feel to reach out if you'd like to chat!
 
-:clipboard: **I'm looking for a job where I can still do interesting research.**
+<!--- 
+:clipboard: **I'm looking for a job where I can still do interesting research.**  
+--> 
 
 ## Publications
 
@@ -24,7 +26,10 @@ You can also find them on <a href="https://scholar.google.com/citations?user=Ilg
 
 * [Structured Reordering for Modeling Latent Alignments in Sequence Transduction](https://arxiv.org/abs/2106.03257) <br/>
 **Bailin Wang**, Mirella Lapata and Ivan Titov <br/>
-To appear in *NeurIPS 2021*
+In *NeurIPS 2021*,
+[[code](https://github.com/berlino/tensor2struct-public)]
+[[slides](https://berlino.github.io/files/neurips-2021-latper.pdf)]
+[[video](https://nips.cc/virtual/2021/poster/26472)]
 
 * [Meta-Learning to Compositionally Generalize](https://arxiv.org/abs/2106.04252) <br/>
 Henry Conklin<sup>\*</sup>, **Bailin Wang**<sup>\*</sup>, Kenny Smith and Ivan Titov (\* equal contribution) <br/>
