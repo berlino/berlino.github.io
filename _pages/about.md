@@ -28,7 +28,7 @@ You can also find them on <a href="https://scholar.google.com/citations?user=Ilg
 **Bailin Wang**, Mirella Lapata and Ivan Titov <br/>
 In *NeurIPS 2021*,
 [[code](https://github.com/berlino/tensor2struct-public)]
-[[slides](https://berlino.github.io/files/neurips-2021-latper.pdf)]
+[[slides](https://berlino.github.io/files/neurips2021-latper.pdf)]
 [[video](https://nips.cc/virtual/2021/poster/26472)]
 
 * [Meta-Learning to Compositionally Generalize](https://arxiv.org/abs/2106.04252) <br/>
@@ -103,6 +103,7 @@ In *AAAI 2018*,
 
 ## Log of Parsing Papers
 
+**Epoch 6**: :smile_cat: Let's focus on how to make discrete latent structures/variables work. <br/>
 **Epoch 5**: :thinking: In 2021, I'm convinced that Transformers are indeed powerful, but we also need specialized objectives to regularize the training of them. <br/>
 **Epoch 4**: :confused: In 2020, Transformers are everywhere, wondering how latent structures can still be useful somehow. <br/>
 **Epoch 3**: :thinking: During 2018-2019,  maybe structured prediction is not required as we already have good end-to-end systems? But latent structures can help! <br/>
@@ -121,7 +122,7 @@ In *AAAI 2018*,
 
 ## Education
 
-* Ph.D in ILCC, University of Edinburgh, 2021 (expected) 
+* Ph.D in ILCC, University of Edinburgh, 2022
 * M.S. in CICS, University of Massachusetts Amherst, 2018
 * B.S. in Xidian University, 2015
 
