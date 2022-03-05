@@ -10,9 +10,9 @@ redirect_from:
 
 :man_technologist:  I am now a postdoc at MIT, working with [Yoon Kim](https://people.csail.mit.edu/yoonkim/). I finished my PhD at the University of Edinburgh, advised by [Ivan Titov](http://ivan-titov.org/) and [Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/index.php).
 
-During my PhD, I primarily focus on addressing several generalization challenges that arise in executable semantic parsing (e.g., text-to-SQL parsing), namely *domain generalization*, *learning from weak supervision* and *systematic generalization*, based on methodologies of **latent discrete structure learning** (e.g., separable permutation)  and **specialized learning objectives** (e.g., meta-learning). 
+During my PhD, I primarily focus on addressing several generalization challenges that arise in executable semantic parsing (e.g., text-to-SQL parsing), namely *domain generalization*, *learning from weak supervision* and *systematic generalization*, based on methodologies of **latent discrete structure learning** (e.g., separable permutation)  and **specialized learning objectives** (e.g., meta-learning). Prior to my PhD, I worked on structured prediction such as nested entity recognition with [Wei Lu](https://istd.sutd.edu.sg/people/faculty/lu-wei).
 
-Currently, I am interested in exploring how these methodologies can be extended to address similar challenges in related tasks such as machine translation and program synthesis. Prior to my PhD, I worked on structured prediction such as nested entity recognition.
+Currently, I am interested in exploring how these methodologies can be extended to address similar challenges in related tasks such as machine translation and program synthesis. 
 
 :wave: Free feel to reach out if you'd like to chat!
 
