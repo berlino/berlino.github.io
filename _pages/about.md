@@ -24,6 +24,9 @@ Currently, I am interested in exploring how these methodologies can be extended 
 
 You can also find them on <a href="https://scholar.google.com/citations?user=IlgMpNoAAAAJ&hl=en">my Google Scholar profile</a>.
 
+* [Generalization Challenges in Semantic Parsing]((https://berlino.github.io/files/thesis.pdf) <br/>
+PhD Thesis
+
 * [Structured Reordering for Modeling Latent Alignments in Sequence Transduction](https://arxiv.org/abs/2106.03257) <br/>
 **Bailin Wang**, Mirella Lapata and Ivan Titov <br/>
 In *NeurIPS 2021*,
