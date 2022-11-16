@@ -8,13 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-:man_technologist:  I am now a postdoc at MIT, working with [Yoon Kim](https://people.csail.mit.edu/yoonkim/). I finished my PhD at the University of Edinburgh, advised by [Ivan Titov](http://ivan-titov.org/) and [Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/index.php).  Prior to my PhD, I worked on structured prediction with [Wei Lu](https://istd.sutd.edu.sg/people/faculty/lu-wei).
+:man_technologist:  I am currently a postdoc at MIT, working with [Yoon Kim](https://people.csail.mit.edu/yoonkim/). I finished my PhD at the University of Edinburgh, advised by [Ivan Titov](http://ivan-titov.org/) and [Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/index.php).  Prior to my PhD, I worked on structured prediction with [Wei Lu](https://istd.sutd.edu.sg/people/faculty/lu-wei).
+
+Currently, I am interested in exploring how latent discrete structures can help LLM reason and enable better control of LLM.  Free feel to reach out if you'd like to chat! :wave:
+
 
 During my PhD, I primarily focus on addressing several generalization challenges that arise in executable semantic parsing (e.g., text-to-SQL parsing), namely *domain generalization*, *learning from weak supervision* and *systematic generalization*, based on methodologies of **latent discrete structure learning** (e.g., separable permutation)  and **specialized learning objectives** (e.g., meta-learning). 
 
-Currently, I am interested in exploring how these methodologies can be extended to address similar challenges in related tasks such as machine translation and program synthesis. 
 
-:wave: Free feel to reach out if you'd like to chat!
 
 <!--- 
 :clipboard: **I'm looking for a job where I can still do interesting research.**  
@@ -22,7 +23,11 @@ Currently, I am interested in exploring how these methodologies can be extended 
 
 ## Publications
 
-You can also find them on <a href="https://scholar.google.com/citations?user=IlgMpNoAAAAJ&hl=en">my Google Scholar profile</a>.
+
+* [Hierarchical Phrase-based Sequence-to-Sequence Learning](https://arxiv.org/abs/2211.07906) <br/>
+**Bailin Wang**, Ivan Titov, Jacob Andreas and Yoon Kim <br/>
+In *EMNLP 2022*,
+[[code](https://github.com/berlino/btg-seq2seq)]
 
 * [Generalization Challenges in Semantic Parsing](https://berlino.github.io/files/thesis.pdf) <br/>
 **PhD Thesis**
@@ -103,10 +108,13 @@ In *AAAI 2018*,
 [[code](https://github.com/berlino/SA-Sent)]
 [[slides](https://berlino.github.io/files/aaai2018_absa.pdf)]
 
+You can also find them on <a href="https://scholar.google.com/citations?user=IlgMpNoAAAAJ&hl=en">my Google Scholar profile</a>.
+
 
 ## Log of Parsing Papers
 
-**Epoch 6**: :smile_cat: Let's focus on how to make discrete latent structures/variables work. <br/>
+**Epoch 7**: :bow:  Bow down to LLM ... <br/>
+**Epoch 6**: :fist: Let's focus on how to make discrete latent structures/variables work. <br/>
 **Epoch 5**: :thinking: In 2021, I'm convinced that Transformers are indeed powerful, but we also need specialized objectives to regularize the training of them. <br/>
 **Epoch 4**: :confused: In 2020, Transformers are everywhere, wondering how latent structures can still be useful somehow. <br/>
 **Epoch 3**: :thinking: During 2018-2019,  maybe structured prediction is not required as we already have good end-to-end systems? But latent structures can help! <br/>
