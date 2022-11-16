@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Parsing Papers --> Epoch 6"
+title                    : "Parsing Papers: Epoch 7"
 title_separator          : "-"
 name                     : &name "Bailin Wang"
 description              : &description "Interested in NLP/ML"
