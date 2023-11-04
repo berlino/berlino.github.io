@@ -8,13 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-:man_technologist:  I am currently a postdoc at MIT, working with [Yoon Kim](https://people.csail.mit.edu/yoonkim/). I finished my PhD at the University of Edinburgh, advised by [Ivan Titov](http://ivan-titov.org/) and [Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/index.php).  Prior to my PhD, I worked on structured prediction with [Wei Lu](https://istd.sutd.edu.sg/people/faculty/lu-wei).
 
-Currently, I am interested in exploring how latent discrete structures can help LLM reason and enable better control of LLM.  Free feel to reach out if you'd like to chat! :wave:
+:man_technologist:  I am currently a postdoc at MIT, working with [Yoon Kim](https://people.csail.mit.edu/yoonkim/). I am interested in how to make LLMs more controllable and efficient. Free feel to reach out if you'd like to chat! :wave:
 
 
-During my PhD, I primarily focus on addressing several generalization challenges that arise in executable semantic parsing (e.g., text-to-SQL parsing), namely *domain generalization*, *learning from weak supervision* and *systematic generalization*, based on methodologies of **latent discrete structure learning** (e.g., separable permutation)  and **specialized learning objectives** (e.g., meta-learning). 
-
+I finished my PhD at the University of Edinburgh, advised by [Ivan Titov](http://ivan-titov.org/) and [Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/index.php).  Prior to my PhD, I worked on structured prediction with [Wei Lu](https://istd.sutd.edu.sg/people/faculty/lu-wei). During my PhD, I primarily focus on addressing several generalization challenges that arise in executable semantic parsing (e.g., text-to-SQL parsing), namely *domain generalization*, *learning from weak supervision* and *systematic generalization*, based on methodologies of **latent discrete structure learning** (e.g., separable permutation)  and **specialized learning objectives** (e.g., meta-learning). 
 
 
 <!--- 
@@ -23,6 +21,12 @@ During my PhD, I primarily focus on addressing several generalization challenges
 
 ## Publications
 
+
+* [Grammar Prompting for Domain-Specific Language Generation with Large Language Models
+](https://arxiv.org/abs/2305.19234) <br/>
+**Bailin Wang**, Zi Wang, Xuezhi Wang, Yuan Cao, Rif A. Saurous and Yoon Kim <br/>
+In *NeurIPS 2023*,
+[[code](https://github.com/berlino/grammar-prompting)]
 
 * [Hierarchical Phrase-based Sequence-to-Sequence Learning](https://arxiv.org/abs/2211.07906) <br/>
 **Bailin Wang**, Ivan Titov, Jacob Andreas and Yoon Kim <br/>
@@ -113,8 +117,13 @@ You can also find them on <a href="https://scholar.google.com/citations?user=Ilg
 
 ## Log of Parsing Papers
 
+<<<<<<< HEAD
 **Epoch 7**: :bow:  Late 2022, bow down to LLM ... <br/>
 **Epoch 6**: :fist: Early 2022, let's focus on how to make discrete latent structures/variables work! <br/>
+=======
+**Epoch 7**: :smile_cat: Let's focus on how to make discrete latent structures/variables work. <br/>
+**Epoch 6**: :smile_cat: Let's focus on how to make discrete latent structures/variables work. <br/>
+>>>>>>> b23cf6e (update interest)
 **Epoch 5**: :thinking: In 2021, I'm convinced that Transformers are indeed powerful, but we also need specialized objectives to regularize the training of them. <br/>
 **Epoch 4**: :confused: In 2020, Transformers are everywhere, wondering how latent structures can still be useful somehow. <br/>
 **Epoch 3**: :thinking: During 2018-2019,  maybe structured prediction is not required as we already have good end-to-end systems? But latent structures can help! <br/>
@@ -131,10 +140,12 @@ You can also find them on <a href="https://scholar.google.com/citations?user=Ilg
 * Research Intern at [StatNLP](http://statnlp.org) Singapore, Summer 2017
 * NLP Intern/Engineer at Mobvoi. Beijing, 2016
 
+<!--- 
 ## Education
 
 * Ph.D in ILCC, University of Edinburgh, 2022
 * M.S. in CICS, University of Massachusetts Amherst, 2018
 * B.S. in Xidian University, 2015
+-->
 
 
