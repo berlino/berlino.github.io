@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-:man_technologist:  I am currently a postdoc at MIT, working with [Yoon Kim](https://people.csail.mit.edu/yoonkim/). I am interested in how to make LLMs more controllable and efficient. Free feel to reach out if you'd like to chat! :wave:
+:man_technologist:  I am a postdoc at MIT, working with [Yoon Kim](https://people.csail.mit.edu/yoonkim/). I am currently interested in developing more controllable and efficient sequence models. Free feel to reach out if you'd like to chat! :wave:
 
 
 I finished my PhD at the University of Edinburgh, advised by [Ivan Titov](http://ivan-titov.org/) and [Mirella Lapata](http://homepages.inf.ed.ac.uk/mlap/index.php).  Prior to my PhD, I worked on structured prediction with [Wei Lu](https://istd.sutd.edu.sg/people/faculty/lu-wei). During my PhD, I primarily focus on addressing several generalization challenges that arise in executable semantic parsing (e.g., text-to-SQL parsing), namely *domain generalization*, *learning from weak supervision* and *systematic generalization*, based on methodologies of **latent discrete structure learning** (e.g., separable permutation)  and **specialized learning objectives** (e.g., meta-learning). 
@@ -19,18 +19,26 @@ I finished my PhD at the University of Edinburgh, advised by [Ivan Titov](http:/
 :clipboard: **I'm looking for a job where I can still do interesting research.**  
 --> 
 
+
 ## Publications
+
+* [Gated Linear Attention Transformers with Hardware-Efficient Training](https://arxiv.org/abs/2312.06635) <br/>
+Songlin Yang<sup>\*</sup>, **Bailin Wang**<sup>\*</sup>, Yikang Shen, Rameswar Panda, Yoon Kim (\* equal contribution) <br/>
+Arxiv, 
+[[code](https://github.com/berlino/gated_linear_attention)]
 
 
 * [Grammar Prompting for Domain-Specific Language Generation with Large Language Models
 ](https://arxiv.org/abs/2305.19234) <br/>
 **Bailin Wang**, Zi Wang, Xuezhi Wang, Yuan Cao, Rif A. Saurous and Yoon Kim <br/>
 In *NeurIPS 2023*,
+[[presentation](https://nips.cc/virtual/2023/poster/72512)]
 [[code](https://github.com/berlino/grammar-prompting)]
 
 * [Hierarchical Phrase-based Sequence-to-Sequence Learning](https://arxiv.org/abs/2211.07906) <br/>
 **Bailin Wang**, Ivan Titov, Jacob Andreas and Yoon Kim <br/>
 In *EMNLP 2022*,
+[[poster](https://berlino.github.io/files/emnlp2022-btg.pdf)]
 [[code](https://github.com/berlino/btg-seq2seq)]
 
 * [Generalization Challenges in Semantic Parsing](https://berlino.github.io/files/thesis.pdf) <br/>
