@@ -22,8 +22,10 @@ I finished my PhD at the University of Edinburgh, advised by [Ivan Titov](http:/
 
 ## Publications
 
+\* equal contribution. <br/>
+
 * [Gated Linear Attention Transformers with Hardware-Efficient Training](https://arxiv.org/abs/2312.06635) <br/>
-Songlin Yang<sup>\*</sup>, **Bailin Wang**<sup>\*</sup>, Yikang Shen, Rameswar Panda, Yoon Kim (\* equal contribution) <br/>
+Songlin Yang<sup>\*</sup>, **Bailin Wang**<sup>\*</sup>, Yikang Shen, Rameswar Panda, Yoon Kim <br/>
 Arxiv, 
 [[code](https://github.com/berlino/gated_linear_attention)]
 
@@ -52,7 +54,7 @@ In *NeurIPS 2021*,
 [[video](https://nips.cc/virtual/2021/poster/26472)]
 
 * [Meta-Learning to Compositionally Generalize](https://arxiv.org/abs/2106.04252) <br/>
-Henry Conklin<sup>\*</sup>, **Bailin Wang**<sup>\*</sup>, Kenny Smith and Ivan Titov (\* equal contribution) <br/>
+Henry Conklin<sup>\*</sup>, **Bailin Wang**<sup>\*</sup>, Kenny Smith and Ivan Titov <br/>
 In *ACL 2021*,
 [[code](https://github.com/berlino/tensor2struct-public)]
 [[slides](https://berlino.github.io/files/acl2021-comp-maml.pdf)]
@@ -84,7 +86,7 @@ In *ICLR 2021*,
 [[video](https://iclr.cc/virtual/2021/poster/3307)]
 
 * [RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers](https://arxiv.org/abs/1911.04942)  <br/>
-**Bailin Wang**<sup>\*</sup>, Richard Shin<sup>\*</sup>, Xiaodong Liu, Oleksandr Polozov and Matthew Richardson (\* equal contribution) <br/>
+**Bailin Wang**<sup>\*</sup>, Richard Shin<sup>\*</sup>, Xiaodong Liu, Oleksandr Polozov and Matthew Richardson  <br/>
 In *ACL 2020*,
 [[code](https://github.com/Microsoft/rat-sql)]
 [[slides](https://berlino.github.io/files/ratsql-acl2020.pdf)]
