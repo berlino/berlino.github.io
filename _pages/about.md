@@ -22,7 +22,7 @@ I finished my PhD at the University of Edinburgh, advised by [Ivan Titov](http:/
 
 ## Publications
 
-\* equal contribution. <br/>
+\* denotes equal contribution. <br/>
 
 * [Gated Linear Attention Transformers with Hardware-Efficient Training](https://arxiv.org/abs/2312.06635) <br/>
 Songlin Yang<sup>\*</sup>, **Bailin Wang**<sup>\*</sup>, Yikang Shen, Rameswar Panda, Yoon Kim <br/>
