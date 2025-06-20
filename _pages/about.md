@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Researcher at Apple AI/ML, working on pretraining and foundation models.
+Researcher at Apple AI/ML, working on the pretraining of foundation models.
 
 Previously, I was a postdoc at MIT and obtained my PhD from the University of Edinburgh. I worked on semantic parsing and machine translation.
 
