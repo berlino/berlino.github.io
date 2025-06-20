@@ -1,0 +1,161 @@
+---
+layout: distill
+title: Gated Linear Attention Part I - The Model
+description: A general family of sub-quadratic models 
+tags: linear_attention mamba 
+giscus_comments: false
+date: 2024-06-08
+featured: true
+
+bibliography: gla.bib
+
+# Optionally, you can add a table of contents to your post.
+# NOTES:
+#   - make sure that TOC names match the actual section names
+#     for hyperlinks within the post to work correctly.
+#   - we may want to automate TOC generation in the future using
+#     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
+toc:
+  - name: Why (Gated) Linear Attention?
+  - name: Parameterization and Efficiency
+  - name: Chunkwise Parallel Form 
+  - name: Empirical Results
+  - name: Summary
+
+# Below is an example of injecting additional post-specific styles.
+# If you use this post as a template, delete this _styles block.
+_styles: >
+  .fake-img {
+    background: #bbb;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 12px;
+  }
+  .fake-img p {
+    font-family: monospace;
+    color: white;
+    text-align: left;
+    margin: 12px 0;
+    text-align: center;
+    font-size: 16px;
+  }
+---
+
+
+
+There has been a surge of interest in sub-quadratic models since at least 2023, including (but not limited to) RWKV <d-cite key="rwkv"></d-cite>, RetNet <d-cite key="retnet"></d-cite>, Mamba<d-cite key="mamba,mamba2"></d-cite>, HGRN<d-cite key="hgrn,hgrn2"></d-cite>, mLSTM<d-cite key="xlstm"></d-cite>.  Such models hold the promise of much better inference efficiency (and argubly better performance) than standard Transformers. In this blogpost, I will explain that many of those models can be connected via a simple and general model family, namely <em>gated linear attention models</em>. More importantly, I will show that our proposed training algorithms can be employed to enable large-scale training of many of them. For more details, please check out the pape<d-cite key="gla"></d-cite> and [code](https://github.com/sustcsonglin/flash-linear-attention).
+
+## Why (Gated) Linear Attention?
+
+The seminal work linear attention work<d-cite key="linearattention"></d-cite> shows that without the softmax operation, the resulting attention can have an equivalent recurrent form as follows:
+
+$$
+\ \ \ \mathbf{S}_{t} = \mathbf{S}_{t-1} + \phi(\boldsymbol{k}_t) \otimes \boldsymbol{v}_t \qquad \boldsymbol z_{t} = \boldsymbol z_{t-1} + \phi(\boldsymbol{k}_t) \qquad \boldsymbol{o}_t = \frac{\phi(\boldsymbol{q})_t \mathbf{S}_t}{\boldsymbol{z}_t} % \qquad \textit{linear attention}
+$$
+
+
+where $$\phi$$ denotes a kernel funciton, $$\otimes$$ denotes outer-product. To get a better sense of the recurrence, let's revisit what a classical Elman RNN looks like:
+
+$$
+\boldsymbol{h}_t = \delta( W_h \boldsymbol{h}_{t-1} + W_x \boldsymbol{h}_{t-1} \boldsymbol{x}_t + \boldsymbol{b}_h)  \qquad  \boldsymbol{y} = \delta( W_y \boldsymbol{h}_t + \boldsymbol{b}_y ) % \qquad \textit{Elman RNN}
+$$
+
+We can tell that there two prominent features of linear attention's recurrence. First, it has a 2D input in the form of the outer-product $$\boldsymbol{k}_t$$ and $$\boldsymbol{v}_t$$, along with 2D hidden states $$\mathbf{S}$$.  Due to the the 2D hidden states, an additional memory readout is needed in the form of matrix-vector product $$\boldsymbol{o}_t = \phi(\boldsymbol{q})_t \mathbf{S}_t$$. Second, as a potential weakness, it does not have transition matrix $$W$$ and activation function $$\delta$$ to model cross-state dependencies. The lack of cross-state transitions is  more clear from the expanded form of the recurrence: $$\mathbf{S}_t=\sum_{i=1}^t \phi(\boldsymbol{k}_i)^ \intercal \boldsymbol{v}_i$$. Intutively, the recurrence only accumulatively add 2D inputs from context tokens.
+
+Based on the observation, it's a natural idea to incoporate more complex cross-state dependencies into the linear attention's recurrence. One simple way is to add an element-wise transition matrix $$\mathbf{G}$$ as follows:
+
+$$
+\qquad\mathbf{S}_{t} = \mathbf{G}_t \odot \mathbf{S}_{t-1} +  \boldsymbol{k}_t \otimes \boldsymbol{v}_t \qquad \boldsymbol{o}_t = \boldsymbol{q}_t \mathbf{S}_t.   % \qquad \textit{gated linear attention}
+$$
+
+Such transition is designed mostly for efficiency considerations. First, element-wise operations are much efficient to compute, compared with the matrix-vector product ($$W \boldsymbol{h}_{t-1}$$) in vanilla RNN. Second, $$\mathbf{G_t}$$ is bounded within $$(0, 1)$$ for training stability, and typically they are known as forget gates. Finally, $$\mathbf{G}_t$$ has the subscript $$t$$ indicating that it's dependent on the current token at position $$t$$. <d-footnote>Forget gates <d-cite key="HochSchm97,cho2014learning,unreasonable-forget-gate"></d-cite> are known to be crucial in the RNN literature. </d-footnote> 
+Compared with the original recurrence, two additional simplifications are incorporated. First, the denominator $$\boldsymbol{z}_t$$ is discarded as it often results to training instability<d-cite key="qin2022devil"></d-cite>. Second, the kernel function $$\phi$$ is simplified to identity function <d-cite key="mao-2022-fine"></d-cite>.
+
+
+
+## Parameterization and Efficiency
+
+The gated linear reccurence is simple yet general as it actually encompasses many recent subquadratic models, which are listed in the following table.  In this section, we point out that the parameterization of $$\mathbf{G}_t$$ is closely connected with the model's training efficiency.
+<!-- 
+First, we summarize many recent models which have different parameterization of $$\mathbf{G}_t$$  in the following table.  -->
+
+
+| Models |      Parameterization | 
+| ------------- | :-----------: | 
+| Mamba <d-cite key="mamba"></d-cite> |  $$\mathbf{G}_t = \exp(-( \mathbf{1} \otimes \boldsymbol{\alpha}_t)\odot \exp(\mathbf{A})),\quad \boldsymbol{\alpha}_t =\operatorname{softplus}(\boldsymbol{x}_t W_{\alpha_1} W_{\alpha_2})$$ |
+| Mama-2 <d-cite key="mamba2"></d-cite> |  $$\mathbf{G}_t = \gamma_t \mathbf{1} \otimes \mathbf{1}, \quad \gamma_t = \exp(-\operatorname{softplus}(-\boldsymbol{x}_t W_{\gamma})\exp(a))$$ |
+mLSTM <d-cite key="beck2024xlstm,peng2021random"></d-cite> |  $$\mathbf{G}_t = \gamma_t \mathbf{1} \otimes \mathbf{1}, \quad \gamma_t = \sigma(\mathbf{x}_t W_{\gamma})$$ |
+Gated Retention <d-cite key="Sun2024YouOC"></d-cite> |  $$\mathbf{G}_t = \gamma_t \mathbf{1} \otimes \mathbf{1}, \quad \gamma_t = \sigma(\mathbf{x}_t W_{\gamma})^{\frac{1}{\tau}}$$ |
+DFW <d-cite key="mao-2022-fine,recurrent_linear_xfmr"></d-cite> |  $$\mathbf{G}_t = \boldsymbol{\alpha}_t\otimes \boldsymbol{\beta}_t, \quad \boldsymbol{\alpha}_t = \sigma(\mathbf{x}_t W_{\alpha}), \quad \boldsymbol{\beta}_t = \sigma(\mathbf{x}_t W_{\beta})$$ |
+GatedLoop <d-cite key="gatedloop"></d-cite> |  $$\mathbf{G}_t = \boldsymbol{\alpha}_t\otimes \mathbf{1}, \quad \boldsymbol{\alpha}_t = \sigma(\mathbf{x}_t W_{\alpha_1})\exp(\mathbf{x}_t W_{\alpha_2} \mathbf{i})$$ |
+HGRN-2 <d-cite key="qin2024hgrn2"></d-cite> |  $$\mathbf{G}_t = \boldsymbol{\alpha}_t\otimes\mathbf{1}, \quad \boldsymbol{\alpha}_t = \boldsymbol{\gamma} + (1-\boldsymbol{\gamma} ) \sigma(\mathbf{x}_t W_{\alpha})$$ |
+RWKV-6 <d-cite key="peng2024eagle"></d-cite> |  $$\mathbf{G}_t =\boldsymbol{\alpha}_t\otimes\mathbf{1}, \quad \boldsymbol{\alpha}_t = \exp(-\exp(\mathbf{x}_t W_{\alpha}))$$ |
+GLA <d-cite key="gla"></d-cite> |  $$\mathbf{G}_t = \boldsymbol{\alpha}_t\otimes \mathbf{1}, \quad \boldsymbol{\alpha}_t = \sigma(\mathbf{x}_t W_{\alpha_1} W_{\alpha_2})$$ |
+
+For notation we use bold upper-case letters for matrices (e.g., $\mathbf{S}$, $\mathbf{Q}$),  bold lower-case letters  for vectors (e.g., $$\boldsymbol{q}_t$$, $$\boldsymbol{k}_t$$), and italic upper-case for learnable parameters matrices (e.g., $W_K$), plain lower-case for scalars (e.g., $\alpha_t$). The GLA listed in the last row is from our paper.<d-footnote>
+When we started working on this idea, we largely follow the parameterization from Mao<d-cite key="mao-2022-fine"></d-cite> and later found that the beta gate is not necessary in our ablation study. </d-footnote> 
+
+The key observation here is that the parameterization of $$\mathbf{G}_t$$ in these models all have the outer-product ($$\otimes$$) form somewhere. Upon closer inspection, we see that Mamba is an exception in that $$\mathbf{G}_t$$ cannot be rewritten as the outer-product form of two vectors ( though it has an intermedia outer-product variable). We now discuss the efficency implications of the parameterization.
+
+### Mamba and Tensor Cores
+
+Recall in the seminal Mamba paper<d-cite key="mamba"></d-cite>, the basic strategy for efficient training is 1) to use parallel scan, and 2) to minimize memory I/O cost by several tricks including recomputation. In fact, such strategy is applicable to any linear RNNs<d-cite key="parallel-martin"></d-cite>. However, the parallel scan requires materializing all the hidden states (either in HBM or SRAM via recomputation), and such materialization would bottleneck the size of hidden states. In Mamba, the hidden states are of size $$16 \times d$$, and further increasing the size would greatly affect the training efficiency.
+
+
+### Outer-Product Models
+
+The rest models in the table all have the outer-product parameterization, as instantiations of general form $$\boldsymbol \alpha_t \otimes \boldsymbol \beta_t$$. 
+ As a main message of this blogpost, we will show that such <u><em>outer-product based parameterizations can be exploited to take advantage of tensor cores for efficent training of linear attention models</em></u>. The new training strategy would also allow larger hidden states beyond $$16 \times d$$. Interestingly, the recent Mamab2<d-cite key="mamba2"></d-cite> paper adapts the original Mamba in the same spirit: larger hidden states + tensor cores. In the next section, we show a general training strategy applicable to any outer-product based models. 
+
+## Chunkwise Parallel Form
+
+<!-- As we learned from FlashAttention<d-cite key="flashattention1,flashattention2"></d-cite>, one crucial consideration for hardware-efficient training is to improve/minimize memory I/O. In linear attention, the other crucial consideration is to how to take advantage of tensor cores as the training using the recurrent form does not need matrix multiplication (matmul) at all. -->
+
+I will first explain the parallel form of linear attention which makes the training amenable to tensor cores. Then, we will explain the chunkwise parallel form that takes both memory I/O and tensor cores into consideration. 
+
+### Parallel Form
+
+The vanilla linear attention (i.e., without gates) has the following parallel form, which is very similar to the naive implementation of softmax attention:
+
+$$
+\qquad\mathbf{S}_{t} = \mathbf{S}_{t-1} +  \boldsymbol{k}_t \otimes \boldsymbol{v}_t \qquad \boldsymbol{o}_t = \boldsymbol{q}_t \mathbf{S}_t \quad \text{recurrent}
+$$
+
+$$
+\qquad \mathbf{O} = ( (\mathbf{Q}^\intercal \mathbf{K}) \odot \mathbf{M}) \mathbf{V}  \qquad  \qquad  \qquad  \text{parallel}
+$$
+
+where $$\mathbf{Q}, \mathbf{K} \in \mathbb{R}^{L\times d_k}, \mathbf{V}, \mathbf{O} \in \mathbb{R}^{L\times d_v}$$ are sequence-level matrices, and $$\mathbf{M}$$ is the causal mask matrix. Now that we have matmuls in this form, we can easily take advantage of tensor cores for training. More importantly, the parallel form of gated linear attention is similar:
+
+$$
+\qquad\mathbf{S}_{t} =  (\boldsymbol{\alpha}_t \otimes \boldsymbol{\beta}_t) \odot \mathbf{S}_{t-1} +  \boldsymbol{k}_t \otimes \boldsymbol{v}_t \qquad \boldsymbol{o}_t = \boldsymbol{q}_t \mathbf{S}_t \quad \text{recurrent}
+$$
+
+$$
+\qquad \tilde{\mathbf{O}} = ( (\tilde{\mathbf{Q}}^\intercal \tilde{\mathbf{K}}) \odot \mathbf{M}) \tilde{\mathbf{V}}  \qquad \qquad \mathbf{O} = \tilde{\mathbf{O}} / \mathbf{D} \qquad \text{parallel}
+$$
+
+where $$\tilde{\mathbf{Q}} = \mathbf{Q} \odot \mathbf{B},\tilde{\mathbf{K}} = \mathbf{K} / \mathbf{B}, \tilde{\mathbf{V}} = \mathbf{V} / \mathbf{D}, \mathbf{B}_t = \prod_{i=1}^t \boldsymbol{\alpha}_i, \mathbf{D}_t = \prod_{i=1}^t \boldsymbol{\beta}_i$$. Intuitively, we need to ''reweight'' the $$\mathbf{Q}, \mathbf{K}, \mathbf{V}$$ matrices and use the same parallel computation as the vanilla case.
+
+The parallel form is very nice, and previous work (e.g., RetNet<d-cite key="retnet"></d-cite>) has already used it for large-scale training. However, this form suffers from two issues. First, it has the quadratic time/memory complexity for explicitly constructing the $$\mathbf{Q}^\intercal \mathbf{K}$$ matrix, which would be prohibitively expensive for long sequences. Second, "the reweighting" matrix $$\mathbf{B}$$ and $$\mathbf{D}$$ are accumulated products of the gates, and $$\tilde{\mathbf{K}}, \tilde{\mathbf{Q}}, \tilde{\mathbf{V}}$$ suffer from numerical instability.
+
+### Chunkwise Form
+
+Here comes our chunkwise parallel form: <em>chunkwise</em> in that the input is conceptually divided into chunks, and <em>parallel</em> in that intra-chunk tokens can be processed in parallel. It's basically a hybrid of the recurrent and parallel forms and get the best of both worlds: it can still leverage tensor cores for intra-chunk computation and avoid the quadratic complexity of the parallel form by materializing chunk-level hidden states. 
+
+
+{% include figure.liquid loading="eager" path="assets/img/chunk_gla.png" class="img-fluid rounded z-depth-1" %}
+
+The figure above illustrates the memory I/O pattern of the chunkwise parallel form<d-footnote>The figure shows a version where chunk-level states are not stored in HBM. In the paper, we also present a materalized version which consumes more memory but runs faster.</d-footnote>. The intuition here is that hidden states $$\mathbf{S}$$ does not necessarily need to be stored in HBM and $$\mathbf{Q}, \mathbf{K}, \mathbf{V}$$ only needs to be loaded once. Both the gated and vanilla linear attention enjoy their corresponding chunkwise parallel forms with the same memory I/O pattern.
+
+## Empirical Results
+
+With the chunkwise parallel form at hand, the gated linear attention models (GLA) can be trained very efficienctly.<d-footnote>Our implementations are in triton, and checkout Songlin's awesome repo https://github.com/sustcsonglin/flash-linear-attention, which includes implementations of many recent models. </d-footnote> In the figure below, we benchmark our models against Transformer++ (i.e., LLaMA architecture) and Mamba in terms of training throughput and memory footprint on an H100. 
+
+{% include figure.liquid loading="eager" path="assets/img/results_gla.png" class="img-fluid rounded z-depth-1" %}
+
+In the paper, we also show that GLA can better performance length generalization and retrieval-intensive tasks, compared with Transformer++ and Mamba!
+
+## Summary
+
+In the blogpost, we introduced the gated linear attention models, a general family of sub-quadratic models that encompasses many recent models. More importantly, we showed that chunkwise parallel form can be employed to enable large-scale training for many of them. Last but not least, you should consider adding it to your achitecture zoo =).

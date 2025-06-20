@@ -1130,3 +1130,35 @@ ninja-keys::part(ninja-input) {
 ninja-keys::part(ninja-input-wrapper) {
   background: var(--global-bg-color);
 }
+
+// News Section
+.news {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  .table {
+    color: var(--global-text-color);
+    
+    th {
+      color: var(--global-text-color);
+      font-weight: bold;
+      border: none;
+      padding: 0.5rem 0.75rem;
+    }
+    
+    td {
+      color: var(--global-text-color);
+      border: none;
+      padding: 0.5rem 0.75rem;
+      vertical-align: top;
+    }
+    
+    tr {
+      border-bottom: 1px solid var(--global-divider-color);
+      
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+}
