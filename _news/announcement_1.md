@@ -6,4 +6,4 @@ related_posts: false
 ---
 
 
-We have open-sourced Jax/Pallas implementatins of Mamba/Mamba2 via [axlearn](https://github.com/apple/axlearn/tree/main/axlearn/common/ssm_kernels) :sparkles: 
+We have open-sourced Jax/Pallas implementatins of Mamba/Mamba2 via [Axlearn](https://github.com/apple/axlearn/tree/main/axlearn/common/ssm_kernels) :sparkles: 
